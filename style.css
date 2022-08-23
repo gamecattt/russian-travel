@@ -77,8 +77,9 @@
 }
 
 .lead__img {
-  max-width: 984px;
-  max-height: 615px;
+  margin: 0 auto;
+  width: 984px;
+  height: 615px;
   margin-bottom: 8px;
 }
 
@@ -130,7 +131,87 @@
 }
 
 .showcase__photo-grid {
+  list-style: none;
+  margin: 0;
+  padding: 0;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 16px;
+}
+
+/* Places */
+
+.places {
+  margin-bottom: 92px;
+}
+
+.two-columns {
+  margin-bottom: 80px;
+}
+
+.two-columns:last-of-type {
+  margin-bottom: 0;
+}
+
+.two-columns__heading {
+  display: flex;
+  align-items: flex-end;
+  gap: 40px;
+  margin-bottom: 48px;
+}
+
+.two-columns__title {
+  margin: 0;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 76px;
+  max-width: 460px;
+  width: 100%;
+}
+
+.two-columns__website {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.two-columns__url {
+  margin: 0;
+  font-size: 12px;
+  line-height: 12px;
+  letter-spacing: 0.2em;
+  color: #aaaaaa;
+  text-transform: uppercase;
+}
+
+.two-columns__link {
+  color: #fff;
+  font-size: 18px;
+  line-height: 22px;
+  text-decoration: underline;
+}
+.two-columns__link:hover {
+  opacity: 0.8;
+  transition: 0.2s;
+}
+
+.two-columns__bottom {
+  display: flex;
+  align-items: start;
+  gap: 40px;
+}
+
+.two-columns__img {
+  width: 460px;
+  height: 460px;
+}
+
+.two-columns__paragraph {
+  margin: 0 0 26px;
+  font-size: 18px;
+  line-height: 163%;
+}
+
+.two-columns__paragraph:last-of-type {
+  margin-bottom: 0;
 }
