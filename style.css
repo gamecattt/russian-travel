@@ -22,15 +22,15 @@
   align-items: center;
 }
 
+.logo__img {
+  width: 176px;
+  height: 52px;
+}
+
 /* header */
 
 .header {
   margin: 28px auto 56px;
-}
-
-.logo__img {
-  width: 176px;
-  height: 52px;
 }
 
 .header__lang-links {
@@ -121,4 +121,16 @@
 
 .intro__span-accent {
   font-weight: 400;
+}
+
+/* Showcase */
+
+.showcase {
+  margin-bottom: 92px;
+}
+
+.showcase__photo-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
 }
