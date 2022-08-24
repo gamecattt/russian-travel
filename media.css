@@ -1,2 +1,29 @@
-@media (max-width: 1024px) {
+@media (max-width: 1183px) {
+  .container {
+    max-width: 928px;
+  }
+
+  .container-sm {
+    max-width: 928px;
+  }
+
+  .container_place_cover {
+    max-width: 1024px;
+    max-height: 640px;
+  }
+
+  .lead__img {
+    max-width: 928px;
+    max-height: 580px;
+  }
+
+  .showcase__photo-grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 14px;
+  }
+
+  .two-columns__img {
+    max-width: 440px;
+    max-height: 440px;
+  }
 }

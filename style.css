@@ -24,6 +24,7 @@
 
 .container_place_cover {
   background-image: url(./images/__background.jpg);
+  background-size: contain;
 }
 
 .logo__img {
@@ -205,8 +206,8 @@
 }
 
 .two-columns__img {
-  width: 460px;
-  height: 460px;
+  max-width: 460px;
+  max-height: 460px;
 }
 
 .two-columns__paragraph {
