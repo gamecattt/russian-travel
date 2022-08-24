@@ -16,7 +16,7 @@
   margin: 0 auto;
 }
 
-.container_place_header {
+.container_with_flex {
   display: flex;
   justify-content: space-between;
   align-items: center;
