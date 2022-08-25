@@ -1,0 +1,23 @@
+.two-columns__bottom {
+  display: flex;
+  align-items: start;
+  gap: 40px;
+}
+
+@media (max-width: 1279px) {
+  .two-columns__bottom {
+    gap: 32px;
+  }
+}
+
+@media (max-width: 1023px) {
+  .two-columns__bottom {
+    gap: 28px;
+  }
+}
+
+@media (max-width: 767px) {
+  .two-columns__bottom {
+    display: block;
+  }
+}

@@ -1,0 +1,15 @@
+.showcase {
+  margin-bottom: 92px;
+}
+
+@media (max-width: 1023px) {
+  .showcase {
+    margin-bottom: 88px;
+  }
+}
+
+@media (max-width: 767px) {
+  .showcase {
+    margin-bottom: 64px;
+  }
+}

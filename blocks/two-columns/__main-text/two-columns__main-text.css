@@ -1,0 +1,5 @@
+@media (max-width: 767px) {
+  .two-columns__main-text {
+    padding: 0 16px;
+  }
+}

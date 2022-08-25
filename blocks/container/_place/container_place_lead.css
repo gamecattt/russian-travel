@@ -1,0 +1,21 @@
+.container_place_lead {
+  padding: 0 148px;
+}
+
+@media (max-width: 1279px) {
+  .container_place_lead {
+    padding: 0 48px;
+  }
+}
+
+@media (max-width: 1023px) {
+  .container_place_lead {
+    padding: 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .container_place_lead {
+    padding: 0;
+  }
+}

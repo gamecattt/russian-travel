@@ -2,7 +2,7 @@
   font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
-  src: local('Inter'), url('fonts/Inter-Regular.otf') format('truetype');
+  src: local('Inter'), url('./fonts/Inter-Regular.otf') format('truetype');
 }
 @font-face {
   font-family: 'Inter';

@@ -1,0 +1,10 @@
+.two-columns__link {
+  color: #fff;
+  font-size: 18px;
+  line-height: 22px;
+  text-decoration: underline;
+  transition: opacity 0.2s;
+}
+.two-columns__link:hover {
+  opacity: 0.8;
+}
