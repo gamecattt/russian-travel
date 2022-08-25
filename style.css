@@ -17,12 +17,8 @@
   margin: 0 auto;
 }
 
-/* .container-sm {
-    max-width: 984px;
-    margin: 0 auto;
-} */
-
-.container_with_flex {
+.container_place_header,
+.container_place_footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
