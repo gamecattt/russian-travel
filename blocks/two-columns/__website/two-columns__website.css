@@ -1,5 +1,12 @@
 .two-columns__website {
   display: flex;
   flex-direction: column;
+  align-self: end;
   gap: 12px;
+}
+
+@media (max-width: 767px) {
+  .two-columns__website {
+    padding: 0 16px;
+  }
 }

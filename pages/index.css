@@ -22,12 +22,10 @@
 @import url(../blocks/showcase/__img/showcase__img.css);
 @import url(../blocks/places/places.css);
 @import url(../blocks/two-columns/two-columns.css);
-@import url(../blocks/two-columns/__heading/two-columns__heading.css);
 @import url(../blocks/two-columns/__title/two-columns__title.css);
 @import url(../blocks/two-columns/__website/two-columns__website.css);
 @import url(../blocks/two-columns/__url/two-columns__url.css);
 @import url(../blocks/two-columns/__link/two-columns__link.css);
-@import url(../blocks/two-columns/__bottom/two-columns__bottom.css);
 @import url(../blocks/two-columns/__img/two-columns__img.css);
 @import url(../blocks/two-columns/__main-text/two-columns__main-text.css);
 @import url(../blocks/two-columns/__paragraph/two-columns__paragraph.css);
