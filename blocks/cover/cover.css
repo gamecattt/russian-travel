@@ -1,6 +1,5 @@
 .cover {
-  margin: 0 auto;
-  margin-bottom: 92px;
+  margin: 0 auto 92px;
   max-width: 1184px;
   background-image: url(../../images/__background.jpg);
   padding: 0;
