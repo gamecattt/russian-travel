@@ -6,7 +6,6 @@
   transition: opacity 0.2s;
 }
 
-.header__lang-link_active,
 .header__lang-link:hover {
   text-decoration: underline;
   opacity: 0.8;
